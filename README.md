@@ -47,6 +47,10 @@ Append the given element as a child of the view element.
 
 Find a child element matching the given selector.
 
+### .findAll(selector)
+
+Find multiple child elements matching the given selector.
+
 ### .bind(event, fn)
 
 Bind event handler or delegate (see [component/events](https://github.com/component/events)).
