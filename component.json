@@ -1,0 +1,18 @@
+{
+    "name": "viewable",
+    "version": "0.1.0",
+    "description": "Add view methods to an object",
+
+    "dependencies": {
+        "component/bind": "*",
+        "component/delegate": "*",
+        "component/each": "*",
+        "scttnlsn/events": "*"
+    },
+
+    "development": {
+        "component/assert": "*"
+    },
+
+    "scripts": ["index.js"]
+}
