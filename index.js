@@ -13,6 +13,10 @@ module.exports = function (obj) {
         return this.el.querySelector(selector);
     };
 
+    obj.findAll = function (selector) {
+        return this.el.querySelectorAll(selector);
+    };
+
     obj.bind = function (event, fn) {
         this.bindings || (this.bindings = events(this.el, this));
         this.bindings.bind(event, fn);

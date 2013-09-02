@@ -17,6 +17,20 @@ describe('Viewable', function () {
         });
     });
 
+    describe('.findAll', function () {
+        it('should find multiple child elements', function () {
+            var foo = document.createElement('div');
+            foo.className = 'foo';
+            this.view.append(foo);
+
+            var foo = document.createElement('div');
+            foo.className = 'foo';
+            this.view.append(foo);
+
+            assert(this.view.findAll('.foo').length === 2);
+        });
+    });
+
     describe('.bind', function () {
         it('binds event handler', function () {
             var clicked = false;
