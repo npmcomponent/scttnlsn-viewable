@@ -1,6 +1,6 @@
-var bind = require('bind');
-var each = require('each');
-var events = require('events');
+var bind = require('component-bind');
+var each = require('component-each');
+var events = require('scttnlsn-events');
 
 module.exports = function (obj) {
     obj || (obj = {});

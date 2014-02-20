@@ -1,0 +1,11 @@
+{
+  "name": "scttnlsn-viewable",
+  "description": "Add view methods to an object",
+  "version": "0.1.0",
+  "dependencies": {
+    "component-bind": "git://github.com/npmcomponent/component-bind.git",
+    "component-delegate": "git://github.com/npmcomponent/component-delegate.git",
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "scttnlsn-events": "git://github.com/npmcomponent/scttnlsn-events.git"
+  }
+}
